@@ -19,14 +19,6 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </Router>
-      {/* <NavBar setTabSelected={setTabSelected}/>
-      <div className="contenar w-full flex justify-center pb-[80px] overflow-hidden">
-        <div className="w-[1200px] max-lg:w-[800px] max-md:w-[375px]">
-          <DemoGrid tabSelected={tabSelected}/>
-        </div>
-
-      </div> */}
-      {/* <AboutPage /> */}
     </div>
   )
 }

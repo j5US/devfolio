@@ -35,17 +35,19 @@ const GridDisplay = () => {
 
         tl
             .to(".grid-wrapper", {
-                delay: 1,
+                delay: 1.2,
             })
             .fromTo(".grid-wrapper", {
-                y: 15,
+                y: 13,
                 opacity: 0
-            }, {
+            }, 
+            {
                 y: 0,
                 opacity: 1,
                 duration: 0.8,
                 ease: "power1.out"
-            }, ">")
+            }, 
+            ">")
 
     }, []);
 
