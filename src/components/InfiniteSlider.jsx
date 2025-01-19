@@ -1,7 +1,6 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/splide.min.css";
-import "../styles/ThemeToggle.css";
 
 import ps from "../assets/images/tools/adobe-photoshop.svg"
 import c from "../assets/images/tools/c-1.svg"
