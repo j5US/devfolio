@@ -4,7 +4,7 @@ import { IoMdMoon } from "react-icons/io";
 import ThemesContext from "../context/themes";
 import { useContext } from "react";
 
-import "../styles/ThemeToggle.css";
+import "../styles/themeToggle.css";
 
 export default function ThemeToggle() {
     // const [isEnabled, setIsEnabled] = useState(false);
