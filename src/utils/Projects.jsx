@@ -33,7 +33,7 @@ const Projects = function () {
         <ProjectView
             projectImage={!isDarkEnabled ? oasisImg : oasisImgDk}
             // projectImage={!isDarkEnabled ? portfolioImg : portfolioImgDk}
-            projectTitle={"The Wild Oasis"}
+            projectTitle={"Wild Oasis"}
             projectLink={"https://the-wild-oasis-gray-chi.vercel.app/"}
         />
 
