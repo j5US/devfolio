@@ -21,17 +21,20 @@ const Projects = function () {
         <ProjectView
             projectImage={!isDarkEnabled ? natoursImg : natoursImgDk}
             projectTitle={"Natours"}
+            projectLink={"https://natours-app-7ddr.onrender.com/"}
         />
     const portrait1 =
         <ProjectView
             projectImage={!isDarkEnabled ? forkifyImg : forkifyImgDk}
             projectTitle={"Forkify"}
+            projectLink={"https://forkify-project-dev.netlify.app/"}
         />
     const portrait2 =
         <ProjectView
             projectImage={!isDarkEnabled ? oasisImg : oasisImgDk}
             // projectImage={!isDarkEnabled ? portfolioImg : portfolioImgDk}
             projectTitle={"The Wild Oasis"}
+            projectLink={"https://the-wild-oasis-gray-chi.vercel.app/"}
         />
 
     return {
