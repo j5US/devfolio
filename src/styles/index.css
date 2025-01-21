@@ -9,7 +9,7 @@ body {
 .light {
   background-color: #f7f1f1;
   color: #000;
-  --placeholder-color: #eee8e8;
+  --grid-item-placeholder: #eee8e8;
   --background: 255, 255, 255;
   --blog-outline: 226, 232, 240;
   --project-outline: 255, 255, 255, 0.53;
@@ -25,7 +25,7 @@ body {
 .dark {
   background-color: #090c10;
   color: #f0f2f8;
-  --placeholder-color: #1c2025;
+  --grid-item-placeholder: #1c2025;
   --background: 13, 17, 23, 255;
   --blog-outline: 48, 54, 61;
   --project-outline: 48, 54, 61;
@@ -59,7 +59,7 @@ body {
 }
 
 .react-grid-placeholder {
-  background-color: var(--placeholder-color) !important;
+  background-color: var(--grid-item-placeholder) !important;
   border-radius: 30px;
   opacity: 1 !important;
   transition: transform 0.55s ease, opacity 0.4s ease !important;

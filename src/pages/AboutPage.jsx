@@ -3,8 +3,9 @@ import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { useContext, useRef } from "react";
 import { RiCloseLine } from "react-icons/ri";
-import InfiniteSlider from "../components/InfiniteSlider"
+// import InfiniteSlider from "../components/InfiniteSlider"
 import ThemesContext from '../context/themes';
+import SkillTiles from '../components/SkillTiles';
 // import Timeline from './Timeline';
 function AboutPage() {
     const elementRef = useRef(null);
@@ -92,7 +93,7 @@ function AboutPage() {
                     onMouseLeave={handleMouseLeave}
                     onClick={handleClick}
                     className={`close-btn
-                bg-close-btn-bg h-[46px] w-[46px] rounded-full border border-2 absolute left-1/2 
+                bg-close-btn-bg h-[46px] w-[46px] rounded-full border-2 absolute left-1/2 
                 transform -translate-x-1/2 top-[40px] border-close-btn-edge
                 ` }>
                     <RiCloseLine className="text-[22px] m-auto text-4xl" />
@@ -140,7 +141,8 @@ function AboutPage() {
                 <h3 className='text-[1.4rem] poppins-semibold'>Stack I use</h3>
 
                 <div>
-                    <InfiniteSlider />
+                    {/* <InfiniteSlider /> */}
+                    <SkillTiles/>
                 </div>
 
                 <h3 className='text-[1.4rem] poppins-semibold'>Education</h3>

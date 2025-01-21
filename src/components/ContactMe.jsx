@@ -22,15 +22,23 @@ function ContactMe() {
                     {/* <li className="cursor-pointer border border-gray-300 rounded-3xl h-[90px] w-[90px] p-6 group hover:bg-[#126bc4] hover:border-0">
                         <FaLinkedinIn className="size-full group-hover:text-white"/>
                     </li>*/}
-                    <li className={`hover:bg-[#dd4336] ${boxStyle}`}>
-                        <VscMail className={iconStyle} />
-                    </li>
-                    <li className={`${isDarkEnabled ? "hover:bg-[#fff]" : "hover:bg-[#000]"} ${boxStyle}`}>
-                        <SiGithub className={iconStyle} />
-                    </li>
-                    <li className={`hover:bg-[#239ce7] ${boxStyle}`}>
-                        <FaXTwitter className={iconStyle} />
-                    </li>
+                    <a href="mailto:mrigankapaul989@gmail.com">
+                        <li className={`hover:bg-[#dd4336] ${boxStyle}`}>
+                            <VscMail className={iconStyle} />
+                        </li>
+                    </a>
+
+                    <a href="https://github.com/j5US" target="_blank" rel="noopener noreferrer">
+                        <li className={`${isDarkEnabled ? "hover:bg-[#fff]" : "hover:bg-[#000]"} ${boxStyle}`}>
+                            <SiGithub className={iconStyle} />
+                        </li>
+                    </a>
+
+                    <a href="https://x.com/CodedInSigma" target="_blank" rel="noopener noreferrer">
+                        <li className={`hover:bg-[#239ce7] ${boxStyle}`}>
+                            <FaXTwitter className={iconStyle} />
+                        </li>
+                    </a>
                 </ul>
             </div>
 

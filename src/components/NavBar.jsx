@@ -22,12 +22,14 @@ function NavBar() {
 
         <nav className="absolute left-1/2 transform -translate-x-1/2 translate-y-[0px] z-50 max-[955px]:hidden">
             {width > 955 && <AnimatedTabs />}
-        </nav> 
+        </nav>
         <nav className="max-[955px]:block hidden">
             {width < 955 && <AnimatedTabs />}
         </nav>
 
-        <p className="text-md poppins-medium max-[955px]:hidden">Contact</p>
+        <a href="mailto:mrigankapaul989@gmail.com">
+            <p className="text-md poppins-medium max-[955px]:hidden">Contact</p>
+        </a>
     </div>
 }
 

@@ -1,6 +1,6 @@
 // import redirectArrow from "../assets/images/north-east-arrow.svg"
 import { Link } from 'react-router-dom';
-import ArrowIcon from "./icons/ArrowIcon";
+import ArrowIcon from "../ui/ArrowIcon";
 
 function About() {
     return (

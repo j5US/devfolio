@@ -35,7 +35,7 @@ const GridDisplay = () => {
 
         tl
             .to(".grid-wrapper", {
-                delay: 1.2,
+                delay: 1.3,
             })
             .fromTo(".grid-wrapper", {
                 y: 13,

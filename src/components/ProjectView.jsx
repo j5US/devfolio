@@ -1,6 +1,6 @@
 // import redirectArrow from "../assets/images/north-east-arrow.svg"
 import { useContext } from "react";
-import ArrowIcon from "./icons/ArrowIcon";
+import ArrowIcon from "../ui/ArrowIcon";
 import ThemesContext from "../context/themes";
 
 
