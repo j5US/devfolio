@@ -1,7 +1,15 @@
+import useResponsiveRowHeight from "../hooks/useResponsiveRowHeight";
+
 function SkillTiles() {
+    const { currentBreakpoint } = useResponsiveRowHeight();
+
+    const ide = (currentBreakpoint === "sm" )
+        ? "vs code"
+        : "visual studio code";
+
     const skills = ["c++", "javascript", "python", "c", "java", "html", "css", "tailwindcss",
-        "react", "nodejs", "mongodb", "mysql", "git", "postman", "nextjs","windows",
-        "linux", "visual studio code", "apache netbeans", "figma", "adobe photoshop", "canva"
+        "react", "nodejs", "mongodb", "mysql", "git", "postman", "nextjs", "windows",
+        "linux", ide , "apache netbeans", "figma", "adobe photoshop", "canva"
     ];
     // const progLang = ["c++", "javascript", "python", "c", "java",];
     // const framework = ["html", "css", "tailwindcss", "react", "nodejs",];
@@ -22,7 +30,7 @@ function SkillTiles() {
                 >
                     <span>{skill}</span>
                 </li>
-            )}         
+            )}
 
         </ul>
     );
