@@ -17,7 +17,7 @@ function Project1Page() {
                             A pair of full-stack web apps simulating both sides of a boutique hospitality business—management and guest booking.
                         </h2>
 
-                        <div className="flex gap-3">
+                        <div className="flex flex-wrap gap-3">
                             <a
                                 href="https://the-wild-oasis-gray-chi.vercel.app/dashboard"
                                 target="_blank" rel="noopener noreferrer" className="w-fit flex items-center gap-1 bg-close-btn-bg self-start py-2 px-4 rounded-full font-medium text-[0.97rem]
