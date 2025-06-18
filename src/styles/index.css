@@ -20,6 +20,7 @@ body {
   --close-btn-bg: 237, 233, 233;
   --close-btn-edge: 232, 236, 241;
   --slider-tile: 204, 205, 205, 0.32;
+  --btn-hover-setting: #e3e0e0;
 }
 
 .dark {
@@ -36,6 +37,7 @@ body {
   --close-btn-bg: 9, 12, 16, 255;
   --close-btn-edge: 48, 54, 61;
   --slider-tile: 38, 38, 38, 255;
+  --btn-hover-setting: #21262d;
 }
 
 /* Home Components  */

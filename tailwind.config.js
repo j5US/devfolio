@@ -17,6 +17,7 @@ export default {
         "close-btn-bg": "rgba(var(--close-btn-bg))",
         "close-btn-edge": "rgba(var(--close-btn-edge))",
         "slider-tile": "rgba(var(--slider-tile))",
+        "btn-hover-setting": "var(--btn-hover-setting)",
       },
     },
     screens: {
